@@ -235,7 +235,7 @@ CONFIGURING the kernel:
 
     - Having unnecessary drivers will make the kernel bigger, and can
       under some circumstances lead to problems: probing for a
-      nonexistent controller card may confuse your other controllers
+      nonexistent controller card may confuse your other controllers.
 
     - Compiling the kernel with "Processor type" set higher than 386
       will result in a kernel that does NOT work on a 386.  The
